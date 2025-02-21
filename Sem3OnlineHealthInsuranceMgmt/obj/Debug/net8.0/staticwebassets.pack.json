@@ -1,0 +1,341 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/obj/Debug/net8.0/scopedcss/projectbundle/Sem3OnlineHealthInsuranceMgmt.bundle.scp.css",
+      "PackagePath": "staticwebassets/Sem3OnlineHealthInsuranceMgmt.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/0eee93c9-1d21-45ca-8a41-24ab8d27e649.png",
+      "PackagePath": "staticwebassets/images/insurance/0eee93c9-1d21-45ca-8a41-24ab8d27e649.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/142319ba-dda6-4574-962d-2243cbb07113.png",
+      "PackagePath": "staticwebassets/images/insurance/142319ba-dda6-4574-962d-2243cbb07113.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/1d9870ee-1448-4429-870b-ea8e161a382f.png",
+      "PackagePath": "staticwebassets/images/insurance/1d9870ee-1448-4429-870b-ea8e161a382f.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/219bcae2-4e97-4f54-9f28-2ccefc37cb26.png",
+      "PackagePath": "staticwebassets/images/insurance/219bcae2-4e97-4f54-9f28-2ccefc37cb26.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/24e080ca-305b-4c1d-8dcb-a8a9c0e11a4d.png",
+      "PackagePath": "staticwebassets/images/insurance/24e080ca-305b-4c1d-8dcb-a8a9c0e11a4d.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/268114dc-af0d-4343-b4b1-0d5f12561dc5.png",
+      "PackagePath": "staticwebassets/images/insurance/268114dc-af0d-4343-b4b1-0d5f12561dc5.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/2e67fc4d-bbf4-471d-b53f-c77b66176398.png",
+      "PackagePath": "staticwebassets/images/insurance/2e67fc4d-bbf4-471d-b53f-c77b66176398.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/310a76ef-9f90-4533-8b29-37025c70be33.png",
+      "PackagePath": "staticwebassets/images/insurance/310a76ef-9f90-4533-8b29-37025c70be33.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/3693b55d-5437-427d-99f9-f4d82c211813.png",
+      "PackagePath": "staticwebassets/images/insurance/3693b55d-5437-427d-99f9-f4d82c211813.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/66812ee1-2571-43e1-989a-7af1bdd00b2b.avif",
+      "PackagePath": "staticwebassets/images/insurance/66812ee1-2571-43e1-989a-7af1bdd00b2b.avif"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/7a594f7e-bd51-4270-9305-ed2c22da2d64.png",
+      "PackagePath": "staticwebassets/images/insurance/7a594f7e-bd51-4270-9305-ed2c22da2d64.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/8430d089-567c-4e1f-b3d4-259100a34abc.png",
+      "PackagePath": "staticwebassets/images/insurance/8430d089-567c-4e1f-b3d4-259100a34abc.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/8e72529c-6655-4909-b37e-70327cddacc7.png",
+      "PackagePath": "staticwebassets/images/insurance/8e72529c-6655-4909-b37e-70327cddacc7.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/96d424a0-f6ac-41d5-a4f5-7106dab9a18b.png",
+      "PackagePath": "staticwebassets/images/insurance/96d424a0-f6ac-41d5-a4f5-7106dab9a18b.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/c0551dc8-7232-4a95-a41b-f71436efa695.png",
+      "PackagePath": "staticwebassets/images/insurance/c0551dc8-7232-4a95-a41b-f71436efa695.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/insurance/f5c68a3b-77e7-4c63-8eaa-b1370c8057ac.png",
+      "PackagePath": "staticwebassets/images/insurance/f5c68a3b-77e7-4c63-8eaa-b1370c8057ac.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/images/success.png",
+      "PackagePath": "staticwebassets/images/success.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/js/company.js",
+      "PackagePath": "staticwebassets/js/company.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/js/insurance.js",
+      "PackagePath": "staticwebassets/js/insurance.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Sem3OnlineHealthInsuranceMgmt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.Sem3OnlineHealthInsuranceMgmt.props",
+      "PackagePath": "build\\Sem3OnlineHealthInsuranceMgmt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.Sem3OnlineHealthInsuranceMgmt.props",
+      "PackagePath": "buildMultiTargeting\\Sem3OnlineHealthInsuranceMgmt.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.Sem3OnlineHealthInsuranceMgmt.props",
+      "PackagePath": "buildTransitive\\Sem3OnlineHealthInsuranceMgmt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

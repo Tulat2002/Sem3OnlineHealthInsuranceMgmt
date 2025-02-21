@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sem3OnlineHealthInsuranceMgmt", "Sem3OnlineHealthInsuranceMgmt\Sem3OnlineHealthInsuranceMgmt.csproj", "{C6305B22-33C7-486E-BDB0-4B699FDA63DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insurance.DataAccess", "Insurance.DataAccess\Insurance.DataAccess.csproj", "{5B35CA4D-5A03-47DC-9431-8164AA3212B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsuranceModels", "InsuranceModels\InsuranceModels.csproj", "{78E2E172-56E5-4E87-89BB-644F84E369C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6305B22-33C7-486E-BDB0-4B699FDA63DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6305B22-33C7-486E-BDB0-4B699FDA63DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6305B22-33C7-486E-BDB0-4B699FDA63DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6305B22-33C7-486E-BDB0-4B699FDA63DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B35CA4D-5A03-47DC-9431-8164AA3212B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B35CA4D-5A03-47DC-9431-8164AA3212B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B35CA4D-5A03-47DC-9431-8164AA3212B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B35CA4D-5A03-47DC-9431-8164AA3212B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E2E172-56E5-4E87-89BB-644F84E369C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E2E172-56E5-4E87-89BB-644F84E369C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E2E172-56E5-4E87-89BB-644F84E369C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E2E172-56E5-4E87-89BB-644F84E369C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

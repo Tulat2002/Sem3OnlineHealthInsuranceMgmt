@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/obj/Debug/net8.0/scopedcss/projectbundle/InsuranceModels.bundle.scp.css",
+      "PackagePath": "staticwebassets/InsuranceModels.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/wwwroot/background.png",
+      "PackagePath": "staticwebassets/background.png"
+    },
+    {
+      "Id": "/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/wwwroot/exampleJsInterop.js",
+      "PackagePath": "staticwebassets/exampleJsInterop.js"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.InsuranceModels.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.InsuranceModels.props",
+      "PackagePath": "build\\InsuranceModels.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.InsuranceModels.props",
+      "PackagePath": "buildMultiTargeting\\InsuranceModels.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.InsuranceModels.props",
+      "PackagePath": "buildTransitive\\InsuranceModels.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
