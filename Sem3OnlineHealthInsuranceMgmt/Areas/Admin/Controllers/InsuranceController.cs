@@ -9,7 +9,7 @@ using Sem3OnlineHealthInsuranceMgmt.ViewModels;
 namespace Sem3OnlineHealthInsuranceMgmt.Controllers;
 
 [Area("Admin")]
-// [Authorize(Roles = SD.Role_Admin)]
+[Authorize(Roles = SD.Role_Admin)]
 public class InsuranceController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
@@ -24,12 +24,7 @@ public class InsuranceController : Controller
     public IActionResult Index()
     {
         List<Insurance> objInsuranceList = _unitOfWork.Insurance.GetAll(includeProperties:"Category").ToList();
-        // IEnumerable<SelectListItem> CategoryList = _unitOfWork.Category
-        //     .GetAll().Select(u => new SelectListItem
-        //     {
-        //         Text = u.Name,
-        //         Value = u.Id.ToString()
-        //     });
+        
         return View(objInsuranceList);
     }
 

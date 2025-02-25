@@ -1,5 +1,6 @@
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 // using Sem3OnlineHealthInsuranceMgmt.Migrations;
 using Sem3OnlineHealthInsuranceMgmt.Models;
@@ -15,12 +16,14 @@ namespace Sem3OnlineHealthInsuranceMgmt.Controllers;
 public class CartController : Controller
 {
     private readonly IUnitOfWork _unitOfWork;
+    private readonly IEmailSender _emailSender;
     [BindProperty]
     public ShoppingCartVM ShoppingCartVM { get; set; }
 
-    public CartController(IUnitOfWork unitOfWork)
+    public CartController(IUnitOfWork unitOfWork, IEmailSender emailSender)
     {
         _unitOfWork = unitOfWork;
+        _emailSender = emailSender;
     }
     
     public IActionResult Index()
@@ -158,10 +161,10 @@ public class CartController : Controller
                 _unitOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
                 _unitOfWork.Save();
             }
-            //HttpContext.Session.Clear();
+            HttpContext.Session.Clear();
         }
-        // _emailSender.SendEmailAsync(orderHeader.ApplicationUser.Email, "New Order - Bulky Book",
-        //     $"<p>New Order Created - {orderHeader.Id}</p>");
+        _emailSender.SendEmailAsync(orderHeader.ApplicationUser.Email, "New Order - Insurance",
+            $"<p>New Order Created - {orderHeader.Id}</p>");
 
         List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCart
             .GetAll(u => u.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
@@ -183,10 +186,12 @@ public class CartController : Controller
     
     public IActionResult Minus(int cartId)
     {
-        var cartFromDb = _unitOfWork.ShoppingCart.Get(u=>u.Id==cartId);
+        var cartFromDb = _unitOfWork.ShoppingCart.Get(u=>u.Id==cartId, tracked: true);
         if (cartFromDb.Count <=1)
         {
             _unitOfWork.ShoppingCart.Remove(cartFromDb);
+            HttpContext.Session.SetInt32(SD.SessionCart, _unitOfWork.ShoppingCart
+                .GetAll(u => u.ApplicationUserId == cartFromDb.ApplicationUserId).Count() - 1);
         }
         else
         {
@@ -199,8 +204,11 @@ public class CartController : Controller
     
     public IActionResult Remove(int cartId)
     {
-        var cartFromDb = _unitOfWork.ShoppingCart.Get(u=>u.Id==cartId);
+        var cartFromDb = _unitOfWork.ShoppingCart.Get(u=>u.Id==cartId, tracked: true);
         _unitOfWork.ShoppingCart.Remove(cartFromDb);
+
+        HttpContext.Session.SetInt32(SD.SessionCart, _unitOfWork.ShoppingCart
+            .GetAll(u => u.ApplicationUserId == cartFromDb.ApplicationUserId).Count() - 1);
         _unitOfWork.Save();
         return RedirectToAction(nameof(Index));
     }

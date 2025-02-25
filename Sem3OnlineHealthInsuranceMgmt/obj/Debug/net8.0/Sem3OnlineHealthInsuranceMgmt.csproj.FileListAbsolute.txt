@@ -244,3 +244,7 @@
 /Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/bin/Debug/net8.0/Microsoft.Extensions.Logging.dll
 /Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/obj/Debug/net8.0/Sem3OnlineHealthInsuranceMgmt.MvcApplicationPartsAssemblyInfo.cs
 /Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/bin/Debug/net8.0/Stripe.net.dll
+/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/obj/Debug/net8.0/Sem3OnlineHealthInsuranceMgmt.sourcelink.json
+/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll
+/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/bin/Debug/net8.0/SendGrid.dll
+/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/Sem3OnlineHealthInsuranceMgmt/bin/Debug/net8.0/StarkbankEcdsa.dll

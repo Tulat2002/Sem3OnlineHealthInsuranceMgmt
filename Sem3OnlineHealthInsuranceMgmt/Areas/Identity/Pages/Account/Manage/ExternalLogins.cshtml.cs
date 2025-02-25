@@ -54,6 +54,7 @@ namespace Sem3OnlineHealthInsuranceMgmt.Areas.Identity.Pages.Account.Manage
         /// </summary>
         [TempData]
         public string StatusMessage { get; set; }
+        
 
         public async Task<IActionResult> OnGetAsync()
         {

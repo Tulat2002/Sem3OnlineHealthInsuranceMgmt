@@ -12,7 +12,7 @@ public class Insurance
     public string Title { get; set; }
     public string Description { get; set; }
     [Required]
-    public string ISBN { get; set; }
+    public string PolicyNumber { get; set; }
     [Required]
     public string ResponsibleUnit { get; set; }
     

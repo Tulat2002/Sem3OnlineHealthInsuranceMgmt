@@ -51,18 +51,17 @@ public class HomeController : Controller
             //neu shopponh cart co
             cartFromDb.Count += shoppingCart.Count;
             _unitOfWork.ShoppingCart.Update(cartFromDb);
-            //_unitOfWork.Save();
+            _unitOfWork.Save();
         }
         else
         {
             //add car record
             _unitOfWork.ShoppingCart.Add(shoppingCart);
-            //_unitOfWork.Save();
-            // HttpContext.Session.SetInt32(SD.SessionCart,
-            //     _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
+            _unitOfWork.Save();
+            HttpContext.Session.SetInt32(SD.SessionCart,
+                _unitOfWork.ShoppingCart.GetAll(u => u.ApplicationUserId == userId).Count());
         }
         TempData["Success"] = "Cart updated successfully.";
-        _unitOfWork.Save();
         return RedirectToAction(nameof(Index));
     }
 

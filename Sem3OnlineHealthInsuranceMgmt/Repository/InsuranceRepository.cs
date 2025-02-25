@@ -18,7 +18,7 @@ public class InsuranceRepository : Repository<Insurance>, IInsuranceRepository
         {
             objFromDb.Title = obj.Title;
             objFromDb.Description = obj.Description;
-            objFromDb.ISBN = obj.ISBN;
+            objFromDb.PolicyNumber = obj.PolicyNumber;
             objFromDb.ResponsibleUnit = obj.ResponsibleUnit;
             objFromDb.Price = obj.Price;
             objFromDb.Price50 = obj.Price50;

@@ -9,9 +9,9 @@ function loadDataTable() {
         "ajax": {url: '/admin/insurance/getall'}, 
         "columns": [
             { data: 'title', "width": "25%" },
-            { data: 'isbn', "width": "15%" },
+            { data: "policyNumber", "width": "15%" },
             { data: 'listPrice', "width": "10%" },
-            { data: 'author', "width": "20%" },
+            { data: 'responsibleUnit', "width": "20%" },
             { data: 'category.name', "width": "15%" },
             { 
                 data:  'id', 

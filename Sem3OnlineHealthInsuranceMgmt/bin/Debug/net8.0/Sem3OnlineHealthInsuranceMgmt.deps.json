@@ -9,6 +9,7 @@
       "Sem3OnlineHealthInsuranceMgmt/1.0.0": {
         "dependencies": {
           "InsuranceModels": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
           "Microsoft.AspNetCore.Identity.UI": "8.0.13",
           "Microsoft.EntityFrameworkCore": "8.0.0",
@@ -16,6 +17,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
           "Pomelo.EntityFrameworkCore.MySql": "8.0.0",
+          "SendGrid": "9.23.0",
           "Stripe.net": "47.2.0"
         },
         "runtime": {
@@ -559,6 +561,14 @@
         "resources": {
           "lib/net6.0/zh-Hant/Humanizer.resources.dll": {
             "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.0": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53112"
           }
         }
       },
@@ -1580,6 +1590,26 @@
           }
         }
       },
+      "SendGrid/9.23.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "starkbank-ecdsa": "1.3.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SendGrid.dll": {
+            "assemblyVersion": "9.23.0.0",
+            "fileVersion": "9.23.0.0"
+          }
+        }
+      },
+      "starkbank-ecdsa/1.3.1": {
+        "runtime": {
+          "lib/netstandard2.1/StarkbankEcdsa.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Stripe.net/47.2.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
@@ -2086,6 +2116,13 @@
       "path": "humanizer.core.zh-hant/2.14.1",
       "hashPath": "humanizer.core.zh-hant.2.14.1.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fniH775aegFKKbTGNtbjbczcs/DEEaYo8pSJNHwUoVQKaYgJ7C4YDHo30jeUk1XZrBaksSTEK8NFUmxPWQOBHg==",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.8.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authorization/8.0.12": {
       "type": "package",
       "serviceable": true,
@@ -2568,6 +2605,20 @@
       "sha512": "sha512-wEzKTeYCs/+cGSpT5zE8UrKkJyqpJ24yBufthDoCWUhpCCYUIsMKeX4fvaYcm9mbkfHP2dZ+p6V+ZKTAZ3hXRQ==",
       "path": "pomelo.entityframeworkcore.mysql/8.0.0",
       "hashPath": "pomelo.entityframeworkcore.mysql.8.0.0.nupkg.sha512"
+    },
+    "SendGrid/9.23.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Vr4P5on2qGF66OKoLz9HNudGFkZw22lEjWU3vaKWqEK00ow1yWtr3WPk9p5YKjB6ARenT9VpzEfYIfS8b0BXWA==",
+      "path": "sendgrid/9.23.0",
+      "hashPath": "sendgrid.9.23.0.nupkg.sha512"
+    },
+    "starkbank-ecdsa/1.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YV20cpN7WgEiaIuIv8ZQPgkDVximP6gHCMCTgy6+IwArDHmuDVQLJ15Qwwmgd5woETnogquD+gu4SXDZW/ffog==",
+      "path": "starkbank-ecdsa/1.3.1",
+      "hashPath": "starkbank-ecdsa.1.3.1.nupkg.sha512"
     },
     "Stripe.net/47.2.0": {
       "type": "package",

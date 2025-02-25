@@ -112,9 +112,9 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Description = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    ISBN = table.Column<string>(type: "longtext", nullable: false)
+                    PolicyNumber = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Author = table.Column<string>(type: "longtext", nullable: false)
+                    ResponsibleUnit = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     ListPrice = table.Column<double>(type: "double", nullable: false),
                     Price = table.Column<double>(type: "double", nullable: false),
@@ -292,6 +292,56 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
+                name: "OrderHeaders",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    ApplicationUserId = table.Column<string>(type: "varchar(255)", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    OrderDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    ShippingDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    OrderTotal = table.Column<double>(type: "double", nullable: false),
+                    OrderStatus = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    PaymentStatus = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    TrackingNumber = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Carrier = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    PaymentDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    PaymentDueDate = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    SessionId = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    PaymentIntentId = table.Column<string>(type: "longtext", nullable: true)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    PhoneNumber = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    StreetAddress = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    City = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    State = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    PostalCode = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Name = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OrderHeaders", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_OrderHeaders_AspNetUsers_ApplicationUserId",
+                        column: x => x.ApplicationUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
                 name: "ShoppingCarts",
                 columns: table => new
                 {
@@ -320,6 +370,35 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
+            migrationBuilder.CreateTable(
+                name: "OrderDetails",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    OrderHeaderId = table.Column<int>(type: "int", nullable: false),
+                    InsuranceId = table.Column<int>(type: "int", nullable: false),
+                    Count = table.Column<int>(type: "int", nullable: false),
+                    Price = table.Column<double>(type: "double", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_OrderDetails", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_OrderDetails_Insurances_InsuranceId",
+                        column: x => x.InsuranceId,
+                        principalTable: "Insurances",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_OrderDetails_OrderHeaders_OrderHeaderId",
+                        column: x => x.OrderHeaderId,
+                        principalTable: "OrderHeaders",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
             migrationBuilder.InsertData(
                 table: "Categories",
                 columns: new[] { "Id", "DisplayOrder", "Name" },
@@ -342,15 +421,15 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
 
             migrationBuilder.InsertData(
                 table: "Insurances",
-                columns: new[] { "Id", "Author", "CategoryId", "Description", "ISBN", "ImageUrl", "ListPrice", "Price", "Price100", "Price50", "Title" },
+                columns: new[] { "Id", "CategoryId", "Description", "ImageUrl", "ListPrice", "PolicyNumber", "Price", "Price100", "Price50", "ResponsibleUnit", "Title" },
                 values: new object[,]
                 {
-                    { 1, "AnkTus", 1, "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.", "SWD9999101", "", 99.0, 90.0, 80.0, 85.0, "Health insurance" },
-                    { 2, "John Doe", 1, "Protect your loved ones with our life insurance plans, ensuring financial stability in case of unforeseen events.", "LIF9988776", "", 150.0, 140.0, 120.0, 130.0, "Life insurance" },
-                    { 3, "Emily Carter", 1, "Comprehensive car insurance coverage for all types of vehicles, including accident protection and theft coverage.", "CAR1122334", "", 200.0, 180.0, 160.0, 170.0, "Car insurance" },
-                    { 4, "Michael Johnson", 2, "Secure your home and belongings against fire, theft, and natural disasters with our trusted insurance policies.", "HOM4455667", "", 180.0, 170.0, 150.0, 160.0, "Home insurance" },
-                    { 5, "Sophia Lee", 2, "Enjoy your travels worry-free with our travel insurance, covering medical emergencies, lost luggage, and trip cancellations.", "TRV7788990", "", 75.0, 70.0, 60.0, 65.0, "Travel insurance" },
-                    { 6, "William Brown", 3, "Designed for farmers and agribusinesses, providing protection against crop loss due to extreme weather or pests.", "AGR5566778", "", 130.0, 120.0, 100.0, 110.0, "Agricultural insurance" }
+                    { 1, 1, "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.", "", 99.0, "SWD9999101", 90.0, 80.0, 85.0, "UnitedHealth Group", "Health insurance" },
+                    { 2, 1, "Protect your loved ones with our life insurance plans, ensuring financial stability in case of unforeseen events.", "", 150.0, "LIF9988776", 140.0, 120.0, 130.0, "AXA", "Life insurance" },
+                    { 3, 1, "Comprehensive car insurance coverage for all types of vehicles, including accident protection and theft coverage.", "", 200.0, "CAR1122334", 180.0, 160.0, 170.0, "Ping An Insurance", "Car insurance" },
+                    { 4, 2, "Secure your home and belongings against fire, theft, and natural disasters with our trusted insurance policies.", "", 180.0, "HOM4455667", 170.0, 150.0, 160.0, "Berkshire Hathaway", "Home insurance" },
+                    { 5, 2, "Enjoy your travels worry-free with our travel insurance, covering medical emergencies, lost luggage, and trip cancellations.", "", 75.0, "TRV7788990", 70.0, 60.0, 65.0, "China Life Insurance", "Travel insurance" },
+                    { 6, 3, "Designed for farmers and agribusinesses, providing protection against crop loss due to extreme weather or pests.", "", 130.0, "AGR5566778", 120.0, 100.0, 110.0, "Allianz", "Agricultural insurance" }
                 });
 
             migrationBuilder.CreateIndex(
@@ -401,6 +480,21 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                 column: "CategoryId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_InsuranceId",
+                table: "OrderDetails",
+                column: "InsuranceId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderDetails_OrderHeaderId",
+                table: "OrderDetails",
+                column: "OrderHeaderId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_OrderHeaders_ApplicationUserId",
+                table: "OrderHeaders",
+                column: "ApplicationUserId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_ShoppingCarts_ApplicationUserId",
                 table: "ShoppingCarts",
                 column: "ApplicationUserId");
@@ -430,22 +524,28 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "OrderDetails");
+
+            migrationBuilder.DropTable(
                 name: "ShoppingCarts");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers");
+                name: "OrderHeaders");
 
             migrationBuilder.DropTable(
                 name: "Insurances");
 
             migrationBuilder.DropTable(
-                name: "Companies");
+                name: "AspNetUsers");
 
             migrationBuilder.DropTable(
                 name: "Categories");
+
+            migrationBuilder.DropTable(
+                name: "Companies");
         }
     }
 }

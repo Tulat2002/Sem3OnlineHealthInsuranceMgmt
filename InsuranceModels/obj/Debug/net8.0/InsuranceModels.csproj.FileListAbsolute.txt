@@ -21,3 +21,4 @@
 /Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/obj/Debug/net8.0/refint/InsuranceModels.dll
 /Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/obj/Debug/net8.0/InsuranceModels.pdb
 /Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/obj/Debug/net8.0/ref/InsuranceModels.dll
+/Users/luonganhtu/Documents/CSharp/Sem3OnlineHealthInsuranceMgmt/InsuranceModels/obj/Debug/net8.0/InsuranceModels.sourcelink.json

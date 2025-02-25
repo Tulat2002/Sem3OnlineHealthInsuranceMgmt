@@ -327,18 +327,10 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("Author")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
                     b.Property<int>("CategoryId")
                         .HasColumnType("int");
 
                     b.Property<string>("Description")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("ISBN")
                         .IsRequired()
                         .HasColumnType("longtext");
 
@@ -349,6 +341,10 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                     b.Property<double>("ListPrice")
                         .HasColumnType("double");
 
+                    b.Property<string>("PolicyNumber")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<double>("Price")
                         .HasColumnType("double");
 
@@ -357,6 +353,10 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
 
                     b.Property<double>("Price50")
                         .HasColumnType("double");
+
+                    b.Property<string>("ResponsibleUnit")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -372,85 +372,85 @@ namespace Sem3OnlineHealthInsuranceMgmt.Migrations
                         new
                         {
                             Id = 1,
-                            Author = "AnkTus",
                             CategoryId = 1,
                             Description = "Reference site about Lorem Ipsum, giving information on its origins, as well as a random Lipsum generator.",
-                            ISBN = "SWD9999101",
                             ImageUrl = "",
                             ListPrice = 99.0,
+                            PolicyNumber = "SWD9999101",
                             Price = 90.0,
                             Price100 = 80.0,
                             Price50 = 85.0,
+                            ResponsibleUnit = "UnitedHealth Group",
                             Title = "Health insurance"
                         },
                         new
                         {
                             Id = 2,
-                            Author = "John Doe",
                             CategoryId = 1,
                             Description = "Protect your loved ones with our life insurance plans, ensuring financial stability in case of unforeseen events.",
-                            ISBN = "LIF9988776",
                             ImageUrl = "",
                             ListPrice = 150.0,
+                            PolicyNumber = "LIF9988776",
                             Price = 140.0,
                             Price100 = 120.0,
                             Price50 = 130.0,
+                            ResponsibleUnit = "AXA",
                             Title = "Life insurance"
                         },
                         new
                         {
                             Id = 3,
-                            Author = "Emily Carter",
                             CategoryId = 1,
                             Description = "Comprehensive car insurance coverage for all types of vehicles, including accident protection and theft coverage.",
-                            ISBN = "CAR1122334",
                             ImageUrl = "",
                             ListPrice = 200.0,
+                            PolicyNumber = "CAR1122334",
                             Price = 180.0,
                             Price100 = 160.0,
                             Price50 = 170.0,
+                            ResponsibleUnit = "Ping An Insurance",
                             Title = "Car insurance"
                         },
                         new
                         {
                             Id = 4,
-                            Author = "Michael Johnson",
                             CategoryId = 2,
                             Description = "Secure your home and belongings against fire, theft, and natural disasters with our trusted insurance policies.",
-                            ISBN = "HOM4455667",
                             ImageUrl = "",
                             ListPrice = 180.0,
+                            PolicyNumber = "HOM4455667",
                             Price = 170.0,
                             Price100 = 150.0,
                             Price50 = 160.0,
+                            ResponsibleUnit = "Berkshire Hathaway",
                             Title = "Home insurance"
                         },
                         new
                         {
                             Id = 5,
-                            Author = "Sophia Lee",
                             CategoryId = 2,
                             Description = "Enjoy your travels worry-free with our travel insurance, covering medical emergencies, lost luggage, and trip cancellations.",
-                            ISBN = "TRV7788990",
                             ImageUrl = "",
                             ListPrice = 75.0,
+                            PolicyNumber = "TRV7788990",
                             Price = 70.0,
                             Price100 = 60.0,
                             Price50 = 65.0,
+                            ResponsibleUnit = "China Life Insurance",
                             Title = "Travel insurance"
                         },
                         new
                         {
                             Id = 6,
-                            Author = "William Brown",
                             CategoryId = 3,
                             Description = "Designed for farmers and agribusinesses, providing protection against crop loss due to extreme weather or pests.",
-                            ISBN = "AGR5566778",
                             ImageUrl = "",
                             ListPrice = 130.0,
+                            PolicyNumber = "AGR5566778",
                             Price = 120.0,
                             Price100 = 100.0,
                             Price50 = 110.0,
+                            ResponsibleUnit = "Allianz",
                             Title = "Agricultural insurance"
                         });
                 });
